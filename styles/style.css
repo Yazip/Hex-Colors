@@ -1,0 +1,59 @@
+.instruction {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 16%;
+    font-weight: normal;
+}
+.bgcolor_value {
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 8%;
+}
+.disappear {
+    animation: disappear 6s ease infinite;
+}
+@keyframes disappear {
+    0% {
+        color: black;
+    }
+    30% {
+        color: grey;
+    }
+    60% {
+        color: white;
+    }
+    100% {
+        color: black;
+    }
+}
+.btn_container {
+    text-align: center;
+}
+.change_color_btn {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding: 9px 15px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #bdb9b91a;
+    transition-property: background-color;
+    transition-duration: .3s;
+}
+.change_color_btn:hover {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding: 9px 15px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #bdb9b966;
+}
+.onclick {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding: 9px 15px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    background-color: white;  
+}
